@@ -19,10 +19,11 @@
       padding-left: 20px;
       padding-right: 20px;
   }
+  /* color black for Cody eyes */
   .secondary-content {
       width: 80%;
       margin: 0 auto;
-      color: #fce138;
+      color: black;
   }
    .secondary-content h3 {
       font-size: 25px;
