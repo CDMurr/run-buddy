@@ -5,12 +5,13 @@
   }
 
 body {
-    /* more on this crazy alphanumerical value in a minute! */
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
   }
 
-  /* apply styles to <header> */
+ 
+  /* HEADER / NAV BAR STYLES START  */
+
 header {
   padding: 20px 35px;
   background-color: #39a6b2;
@@ -72,7 +73,7 @@ header {
 
   /* Hero Style Start */
   .hero {
-    background-image: url("../images/hero-bg.jpeg");
+    background-image: url("../images/hero-bg.jpg");
     height: 600px;
     background-size: cover;
     background-position: center;
