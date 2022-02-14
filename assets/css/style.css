@@ -26,6 +26,7 @@ header {
     color: #fce138;
     margin: 0;
   }
+
   header a {
     text-decoration: none;
     color: #fce138;
@@ -49,13 +50,18 @@ header {
     font-size: 1.55vw;
   }
 
+  /* HEADER / NAVBAR STYLES END */
+
+
+  
+  /* FOOTER STYLES START */
   footer {
     background: #fce138;
-    width: 100%;
     padding: 40px 35px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
   }
 
   footer h2 {
@@ -72,29 +78,21 @@ header {
   footer a {
     color: #024e76;
   }
+  /* END FOOTER STYLES */
 
+  /* STYLE ALL SECTION TAGS */
   section {
       padding: 60px;
   }
 
   /* Hero Style Start */
   .hero {
-    background-image: url("../images/hero-bg.jpg");
+    background-image: url('../images/hero-bg.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    width: 40%;
-    margin: 3.5%;
-  }
-  /* Hero Style End */
-
-  .hero-form {
-    border: 3px solid #024e76;
-    background-color: #fce138;
-    padding: 20px;
-    color: #024e76;
   }
 
   .hero-cta {
@@ -110,6 +108,15 @@ header {
     font-style: italic;
     font-size: 55px;
     color: #fce135;
+  }
+
+  .hero-form {
+    border: 3px solid #024e76;
+    background-color: #fce138;
+    padding: 20px;
+    color: #024e76;
+    width: 40%;
+    margin: 3.5%;
   }
 
   .hero-form h3 {
